@@ -14,11 +14,19 @@ Identificar os principais fatores que levam ao cancelamento de clientes (Churn) 
 
 ## 💡 Principais Insights (Data Storytelling)
 1.  **Risco Inicial:** O fator determinante para o churn é o `tenure`. Clientes novos (< 6 meses) são os mais voláteis.
-   <p align="center">![Importância das Variáveis](images/churn_feature_imp.png)</p>
+    <p align="center">
+      <img src="images/churn_feature_imp.png" alt="Importância das Variáveis" width="700">
+    </p>
+
 2.  **O Vilão do Pagamento:** O método "Electronic Check" tem taxa de cancelamento significativamente maior que Cartão de Crédito.
-   <p align="center">![Churn por Método de Pagamento](images/churn_tipo_pagamento.png)</p>
+    <p align="center">
+      <img src="images/churn_tipo_pagamento.png" alt="Churn por Método de Pagamento" width="600">
+    </p>
+
 3.  **Sensibilidade ao Preço:** Clientes com mensalidades mais altas tendem a cancelar mais (Churn de Receita).
-   <p align="center">![Churn por Mensalidade](images/churn_mensalidade.png)</p>
+    <p align="center">
+      <img src="images/churn_mensalidade.png" alt="Churn por Mensalidade" width="600">
+    </p>
 
 ## 🤖 Performance do Modelo
 O modelo Random Forest alcançou um **Recall de 71%** para a classe de Churn.
@@ -27,7 +35,7 @@ O modelo Random Forest alcançou um **Recall de 71%** para a classe de Churn.
 ## 🚀 Como Rodar o Projeto
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/marcosbaccin/churn-analysis-storytelling.git](https://github.com/marcosbaccin/churn-analysis-storytelling.git)
+   git clone https://github.com/marcosbaccin/churn-analysis-storytelling.git
 2. Instale as dependências:
     ```bash
     pip install -r requirements.txt
